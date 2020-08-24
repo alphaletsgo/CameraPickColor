@@ -8,7 +8,7 @@ android {
         applicationId "cn.isif.cpc"
         minSdkVersion 16
         targetSdkVersion 30
-        versionCode 1
+        versionCode getVersionCode(true)
         versionName "1.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
@@ -31,6 +31,41 @@ android {
             version "3.10.2"
         }
     }
+
+}
+
+static def getVersionCode(boolean isDebug) {
+    if (isDebug) {
+        return Integer.parseInt(new Date().format("yyMMddHHmm"))
+    }
+    return getRevisionNumber()
+}
+
+
+// 获取 version name
+def getVersionName(boolean isDebug) {
+    String version = appConfig.appmajor +
+            '.' + appConfig.appminor +
+            '.' + getRevisionNumber()
+    String today = new Date().format('yyMMdd')
+    String time = new Date().format('HHmmss')
+    if (isDebug) {
+        return version + ".$today.$time." + getRevisionDescription()
+    }
+    return version + ".$today." + getRevisionDescription()
+}
+
+// 获取修订版本 git 提交次数
+static def getRevisionNumber() {
+    Process process = "git rev-list --count HEAD".execute()
+    process.waitFor()
+    return process.getText().toInteger()
+}
+
+// 获取修订版本最后一次 git 记录后6位
+static def getRevisionDescription() {
+    String desc = 'git describe --always'.execute().getText().trim()
+    return (desc == null || desc.size() == 0) ? new Date().format("yyMMdd") : desc.substring(desc.size() - 6)
 }
 
 dependencies {

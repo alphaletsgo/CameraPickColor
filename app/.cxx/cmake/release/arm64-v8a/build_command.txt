@@ -1,0 +1,21 @@
+Executable : C:\Users\zhy_h\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\cmake.exe
+arguments : 
+-HC:\Users\zhy_h\AndroidStudioProjects\CameraPickColor\app\src\main\cpp
+-DCMAKE_FIND_ROOT_PATH=C:\Users\zhy_h\AndroidStudioProjects\CameraPickColor\app\.cxx\cmake\release\prefab\arm64-v8a\prefab
+-DCMAKE_BUILD_TYPE=Release
+-DCMAKE_TOOLCHAIN_FILE=C:\Users\zhy_h\AppData\Local\Android\Sdk\ndk\21.0.6113669\build\cmake\android.toolchain.cmake
+-DANDROID_ABI=arm64-v8a
+-DANDROID_NDK=C:\Users\zhy_h\AppData\Local\Android\Sdk\ndk\21.0.6113669
+-DANDROID_PLATFORM=android-16
+-DCMAKE_ANDROID_ARCH_ABI=arm64-v8a
+-DCMAKE_ANDROID_NDK=C:\Users\zhy_h\AppData\Local\Android\Sdk\ndk\21.0.6113669
+-DCMAKE_EXPORT_COMPILE_COMMANDS=ON
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=C:\Users\zhy_h\AndroidStudioProjects\CameraPickColor\app\build\intermediates\cmake\release\obj\arm64-v8a
+-DCMAKE_MAKE_PROGRAM=C:\Users\zhy_h\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe
+-DCMAKE_SYSTEM_NAME=Android
+-DCMAKE_SYSTEM_VERSION=16
+-BC:\Users\zhy_h\AndroidStudioProjects\CameraPickColor\app\.cxx\cmake\release\arm64-v8a
+-GNinja
+jvmArgs : 
+
+Build command args:

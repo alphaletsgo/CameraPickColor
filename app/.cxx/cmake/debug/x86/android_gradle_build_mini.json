@@ -1,19 +1,19 @@
 {
   "buildFiles": [
-    "C:\\Users\\zhy_h\\AppData\\Local\\Android\\Sdk\\ndk\\21.0.6113669\\build\\cmake\\android.toolchain.cmake",
-    "C:\\Users\\zhy_h\\AppData\\Local\\Android\\Sdk\\ndk\\21.0.6113669\\build\\cmake\\platforms.cmake",
-    "C:\\Users\\zhy_h\\AndroidStudioProjects\\CameraPickColor\\app\\src\\main\\cpp\\CMakeLists.txt"
+    "/Users/zhy/Library/Android/sdk/ndk/21.0.6113669/build/cmake/platforms.cmake",
+    "/Users/zhy/Library/Android/sdk/ndk/21.0.6113669/build/cmake/android.toolchain.cmake",
+    "/Users/zhy/Documents/workspace/AndroidStudio/zhy/CameraPickColor/app/src/main/cpp/CMakeLists.txt"
   ],
   "cleanCommands": [
-    "C:\\Users\\zhy_h\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\zhy_h\\AndroidStudioProjects\\CameraPickColor\\app\\.cxx\\cmake\\debug\\x86\" clean"
+    "/Users/zhy/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/zhy/Documents/workspace/AndroidStudio/zhy/CameraPickColor/app/.cxx/cmake/debug/x86\" clean"
   ],
-  "buildTargetsCommand": "C:\\Users\\zhy_h\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe  -C \"C:\\Users\\zhy_h\\AndroidStudioProjects\\CameraPickColor\\app\\.cxx\\cmake\\debug\\x86\" {LIST_OF_TARGETS_TO_BUILD}",
+  "buildTargetsCommand": "/Users/zhy/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja  -C \"/Users/zhy/Documents/workspace/AndroidStudio/zhy/CameraPickColor/app/.cxx/cmake/debug/x86\" {LIST_OF_TARGETS_TO_BUILD}",
   "libraries": {
     "native-lib-Debug-x86": {
       "artifactName": "native-lib",
-      "buildCommand": "C:\\Users\\zhy_h\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\zhy_h\\AndroidStudioProjects\\CameraPickColor\\app\\.cxx\\cmake\\debug\\x86\" native-lib",
+      "buildCommand": "/Users/zhy/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/zhy/Documents/workspace/AndroidStudio/zhy/CameraPickColor/app/.cxx/cmake/debug/x86\" native-lib",
       "abi": "x86",
-      "output": "C:\\Users\\zhy_h\\AndroidStudioProjects\\CameraPickColor\\app\\build\\intermediates\\cmake\\debug\\obj\\x86\\libnative-lib.so",
+      "output": "/Users/zhy/Documents/workspace/AndroidStudio/zhy/CameraPickColor/app/build/intermediates/cmake/debug/obj/x86/libnative-lib.so",
       "runtimeFiles": []
     }
   }
